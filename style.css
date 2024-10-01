@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;  
+    color: #222222;                      
+}
+
+section.hello {
+    padding: 0px calc(23.5px + (120 - 23.5) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h2 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    max-width: calc(328px + (1022 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (90 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h4 {
+    font-size: calc(22px + (27 - 22) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: calc(22px + (27 - 22) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: calc(30px + (90 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.services > div {
+    flex-basis: calc(100% + (50% - 100%) * ((100vw - 375px) / (1280 - 375)));
+    max-width: calc(328px + (400 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
